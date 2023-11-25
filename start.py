@@ -4,7 +4,9 @@ import random
 import sys
 
 class BlackJack:
+    
     def __init__(self):
+
         self.player=int(input("玩家人數:"))
         self.player_data={input(f"玩家{n}:"):f"玩家{n}" for n in range(1,self.player+1)}
         self.makers=input(f"庄家:")
