@@ -4,7 +4,7 @@ import random
 import sys
 
 class BlackJack:
-    
+
     def __init__(self):
 
         self.player=int(input("玩家人數:"))
@@ -240,7 +240,6 @@ class BlackJack:
         """
         card's color
         """
-        ...
 
     def check(self):
         print()
